@@ -24,7 +24,7 @@ function Navbar() {
             </div>
 
             {/* Navlinks */}
-            <div className={`flex flex-col basis-full items-center max-h-0 overflow-hidden transition-[max-height] duration-500 ease-in-out
+            <div className={`flex flex-col basis-full items-center max-h-0 overflow-hidden transition-[max-height] duration-500 ease-in-out text-black dark:text-white
                             ${isOpen ? "max-h-96" : "max-h-0"}
                             sm:flex-row sm:basis-0 sm:overflow-visible`}>
                 <a href="#" className="m-3 font-helveticaLight">Home</a>
