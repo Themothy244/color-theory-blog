@@ -7,9 +7,9 @@ function HeroSection() {
                 <h1 className="text-[clamp(1rem,11vw,56px)] leading-tight font-helveticaBold font-bold 
                                 sm:text-5xl sm:text-center md:text-5xl lg:text-6xl lg:text-left xl:text-7xl">Understanding Color Theory: A Beginner’s Guide</h1>
             </div>
-
-            <img src={colorWheel} alt="Color Wheel" className="w-4/5 max-w-md m-4 sm:w-3/4 lg:w-1/3 xl:mx-12"/>
-            
+            <div className="w-4/5 max-w-md aspect-square rounded-full overflow-hidden m-4 sm:w-3/4 lg:w-1/3 xl:mx-12">
+                <img src={colorWheel} alt="Color Wheel" className="w-full h-full object-cover animate-spinn"/>
+            </div>
             <div className="bg-gray-100/90 backdrop-blur-lg rounded-2xl mt-8 mx-[10vw] p-4 max-w-lg absolute top-2/3 lg:top-3/4 xl:top-[80%] xl:max-w-2xl
                             dark:bg-gray-800/80">
                 <p className="font-helveticaLight">
