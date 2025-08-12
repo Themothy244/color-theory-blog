@@ -2,7 +2,7 @@ import colorWheel from "../../assets/img/color-wheel-1.png";
 
 function HeroSection() {
     return(
-        <div className="mt-20 flex flex-wrap justify-center items-center relative xl:mt-28">
+        <div className="my-20 flex flex-wrap justify-center items-center relative xl:mt-28">
             <div className="mx-[12vw] mt-4 max-w-md sm:max-w-lg sm:my-6 lg:mx-6 lg:max-w-md xl:mx-12 xl:max-w-lg">
                 <h1 className="text-[clamp(1rem,11vw,56px)] leading-tight font-helveticaBold font-bold 
                                 sm:text-5xl sm:text-center md:text-5xl lg:text-6xl lg:text-left xl:text-7xl">Understanding Color Theory: A Beginner’s Guide</h1>
