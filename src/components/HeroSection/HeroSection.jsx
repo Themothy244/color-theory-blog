@@ -12,7 +12,7 @@ function HeroSection() {
             </div>
             <div className="bg-gray-100/90 backdrop-blur-lg rounded-2xl mt-8 mx-[10vw] p-4 max-w-lg absolute top-2/3 lg:top-3/4 lg:max-w-2xl xl:top-[80%]
                             dark:bg-gray-800/80">
-                <p className="font-helveticaLight">
+                <p className="font-helveticaLight text-[clamp(0rem,4vw,16px)]">
                     Whether you're a painter, digital artist, designer, or just 
                     getting into the creative world, understanding color theory 
                     is one of the most important foundations of visual art. This 
