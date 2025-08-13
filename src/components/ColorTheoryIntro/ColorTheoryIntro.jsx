@@ -12,13 +12,14 @@ function ColorTheoryIntro() {
                     <div className='h-[1.5px] w-1/3 max-w-md bg-gray-900 dark:bg-white'></div>
                 </div>
             </div>
-            <div>
-                <p className='font-helveticaLight'>
-                    Color theory is the science and art of using color. It helps 
-                    us understand how colors work together, how they affect our 
-                    emotions, and how to create visually pleasing combinations.
+            <div className='bg-gray-200/80 backdrop-blur-lg mx-[10vw] my-5 rounded-2xl p-5 max-w-3xl lg:mx-auto md:p-6
+                            dark:bg-gray-800/80'>
+                <p className='font-helveticaLight mb-3 md:text-lg'>
+                    Color theory is the science and art of how colors work together and how they affect what we see and feel. It helps explain which color combinations look good, how they create balance, and how certain colors can influence our emotions or draw attention.
                 </p>
-                <p>In simple terms, it’s the why and how behind the colors you choose in your artwork.</p>
+                <p className='font-helveticaLight md:text-lg'>
+                    In simple terms, color theory is the reason behind the colors you choose in your artwork. It helps you make better design decisions by showing how to mix and match colors in a way that feels natural and visually pleasing.
+                </p>
             </div>
         </div>
     );
