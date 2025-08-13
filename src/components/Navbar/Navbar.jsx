@@ -7,7 +7,7 @@ function Navbar() {
         setIsOpen(prev => !prev);
     };
     return(
-        <div className="h-auto max-w-xl mx-[10vw] p-2 my-4 rounded-[30px] bg-white/80 backdrop-blur-md flex flex-wrap items-center justify-between fixed top-0 left-0 right-0 z-50
+        <div className="h-auto max-w-xl mx-[10vw] p-2 my-4 rounded-[30px] bg-gray-200/80 backdrop-blur-md flex flex-wrap items-center justify-between fixed top-0 left-0 right-0 z-50
                         dark:bg-gray-800/80 dark:text-white
                         sm:mx-auto">
             {/* Logo */}
