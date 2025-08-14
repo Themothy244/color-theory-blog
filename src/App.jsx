@@ -1,4 +1,5 @@
 import ColorTheoryIntro from './components/ColorTheoryIntro/ColorTheoryIntro'
+import ColorWheel from './components/ColorWheel/ColorWheel'
 import HeroSection from './components/HeroSection/HeroSection'
 import Navbar from './components/Navbar/Navbar'
 import './styles/App.css'
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <ColorTheoryIntro />
+      <ColorWheel />
     </div>
   )
 }
