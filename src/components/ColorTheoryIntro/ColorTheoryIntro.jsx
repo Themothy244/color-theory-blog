@@ -18,7 +18,7 @@ function ColorTheoryIntro() {
                 <img src={colorWheel} alt='color wheel' className='w-full h-full object-cover animate-spinn'/>
             </div>
 
-            <div className='bg-gray-200/80 backdrop-blur-lg mx-[10vw] my-5 rounded-2xl p-5 max-w-3xl lg:mx-auto md:p-6
+            <div className='bg-gray-200/80 backdrop-blur-lg mx-[8vw] my-5 rounded-2xl p-5 lg:max-w-3xl lg:mx-auto md:p-6
                             dark:bg-gray-800/80'>
                 <p className='font-helveticaLight mb-3 md:text-lg'>
                     Color theory is the science and art of how colors work together and how they affect what we see and feel. It helps explain which color combinations look good, how they create balance, and how certain colors can influence our emotions or draw attention.
