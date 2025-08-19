@@ -17,48 +17,48 @@ function ColorCategory() {
                 <ColorWheel />
             </div>
             <div className="h-[200vh] bg-[#191919]/70 backdrop-blur-lg sticky top-0 py-10">
-                <div className="mx-[8vw] sticky top-[18%]">
-                    <div>
-                        <h1 className="font-helveticaBold font-bold text-4xl">Primary Colors</h1>
-                    <div className='h-[1.5px] w-3/4 max-w-md my-3 bg-gray-900 dark:bg-white'></div>
+                <div className="mx-[8vw] sticky top-[18%] flex flex-wrap lg:justify-center lg:items-center lg:mx-auto">
+                    <div className="lg:max-w-md">
+                        <h1 className="font-helveticaBold font-bold text-4xl sm:text-6xl">Primary Colors</h1>
+                        <div className='h-[1.5px] w-3/4 max-w-md my-3 bg-gray-900 dark:bg-white'></div>
 
-                        <p className="font-helveticaLight">
+                        <p className="font-helveticaLight md:text-lg">
                             These are the base colors that can’t be created by mixing others.
                         </p>
                     </div>
-                    <div className="my-5">
+                    <div className="my-10 mx-auto w-full md:max-w-lg lg:mx-0 lg:max-w-sm">
                         <DonutChart labels={primaryLabel} colors={primaryColor}/>
                     </div>
                 </div>
             </div>
 
             <div className="h-[200vh] bg-[#0f0f0f]/70 backdrop-blur-lg sticky top-0 py-10">
-                <div className="mx-[8vw] sticky top-[18%]">
-                    <div>
-                        <h1 className="font-helveticaBold font-bold text-4xl">Secondary Colors</h1>
-                    <div className='h-[1.5px] w-3/4 max-w-md my-3 bg-gray-900 dark:bg-white'></div>
+                <div className="mx-[8vw] sticky top-[18%] flex flex-wrap lg:justify-center lg:items-center lg:mx-auto">
+                    <div className="lg:max-w-md">
+                        <h1 className="font-helveticaBold font-bold text-4xl sm:text-6xl">Secondary Colors</h1>
+                        <div className='h-[1.5px] w-3/4 max-w-md my-3 bg-gray-900 dark:bg-white'></div>
 
-                        <p className="font-helveticaLight">
+                        <p className="font-helveticaLight md:text-lg">
                             These are created by mixing two primary colors.
                         </p>
                     </div>
-                    <div className="my-5">
+                    <div className="my-10 mx-auto w-full md:max-w-lg lg:mx-0 lg:max-w-sm">
                         <DonutChart labels={secondaryLabel} colors={secondaryColor}/>
                     </div>
                 </div>
             </div>
 
             <div className="h-[200vh] bg-[#000000]/70 backdrop-blur-lg sticky top-0 py-10">
-                <div className="mx-[8vw] sticky top-[18%]">
-                    <div>
-                        <h1 className="font-helveticaBold font-bold text-4xl">Tertiary Colors</h1>
-                    <div className='h-[1.5px] w-3/4 max-w-md my-3 bg-gray-900 dark:bg-white'></div>
+                <div className="mx-[8vw] sticky top-[18%] flex flex-wrap lg:justify-center lg:items-center lg:mx-auto">
+                    <div className="lg:max-w-md">
+                        <h1 className="font-helveticaBold font-bold text-4xl sm:text-6xl">Tertiary Colors</h1>
+                        <div className='h-[1.5px] w-3/4 max-w-md my-3 bg-gray-900 dark:bg-white'></div>
 
-                        <p className="font-helveticaLight">
+                        <p className="font-helveticaLight md:text-lg">
                             These are made by mixing a primary and a secondary color.
                         </p>
                     </div>
-                    <div className="my-5">
+                    <div className="my-10 mx-auto w-full md:max-w-lg lg:mx-0 lg:max-w-sm">
                         <DonutChart labels={tertiaryLabel} colors={tertiaryColor}/>
                     </div>
                 </div>
