@@ -16,7 +16,7 @@ function ColorCategory() {
             <div className="h-[200vh] sticky top-0 py-[5%]">
                 <ColorWheel />
             </div>
-            <div className="h-[200vh] bg-[#191919]/70 backdrop-blur-lg sticky top-0 py-10">
+            <div className="h-[200vh] bg-gray-100/70 dark:bg-[#191919]/70 backdrop-blur-lg sticky top-0 py-10">
                 <div className="mx-[8vw] sticky top-[18%] flex flex-wrap lg:justify-center lg:items-center lg:mx-auto">
                     <div className="lg:max-w-md">
                         <h1 className="font-helveticaBold font-bold text-4xl sm:text-6xl">Primary Colors</h1>
@@ -32,7 +32,7 @@ function ColorCategory() {
                 </div>
             </div>
 
-            <div className="h-[200vh] bg-[#0f0f0f]/70 backdrop-blur-lg sticky top-0 py-10">
+            <div className="h-[200vh] bg-gray-200/70 dark:bg-[#0f0f0f]/70 backdrop-blur-lg sticky top-0 py-10">
                 <div className="mx-[8vw] sticky top-[18%] flex flex-wrap lg:justify-center lg:items-center lg:mx-auto">
                     <div className="lg:max-w-md">
                         <h1 className="font-helveticaBold font-bold text-4xl sm:text-6xl">Secondary Colors</h1>
@@ -48,7 +48,7 @@ function ColorCategory() {
                 </div>
             </div>
 
-            <div className="h-[200vh] bg-[#000000]/70 backdrop-blur-lg sticky top-0 py-10">
+            <div className="h-[200vh] bg-gray-300/70 dark:bg-[#000000]/70 backdrop-blur-lg sticky top-0 py-10">
                 <div className="mx-[8vw] sticky top-[18%] flex flex-wrap lg:justify-center lg:items-center lg:mx-auto">
                     <div className="lg:max-w-md">
                         <h1 className="font-helveticaBold font-bold text-4xl sm:text-6xl">Tertiary Colors</h1>
