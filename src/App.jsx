@@ -12,7 +12,6 @@ function App() {
       <Navbar />
       <HeroSection />
       <ColorTheoryIntro />
-      <ColorWheel />
       <ColorCategory />
     </div>
   )
