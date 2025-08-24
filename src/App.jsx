@@ -1,4 +1,5 @@
 import ColorCategory from './components/ColorCategory/ColorCategory'
+import ColorCombination from './components/ColorCombination/ColorCombination'
 import ColorTheoryIntro from './components/ColorTheoryIntro/ColorTheoryIntro'
 import ColorWheel from './components/ColorWheel/ColorWheel'
 import HeroSection from './components/HeroSection/HeroSection'
@@ -13,6 +14,7 @@ function App() {
       <HeroSection />
       <ColorTheoryIntro />
       <ColorCategory />
+      <ColorCombination />
     </div>
   )
 }
