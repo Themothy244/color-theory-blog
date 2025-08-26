@@ -37,7 +37,7 @@ function ColorCombination() {
                             <h1 className='font-helveticaBold font-bold text-3xl sm:text-4xl'>Analogous</h1>
                             <p className='font-helveticaLight mx-4 text-xs sm:text-base'>Colors that are next to each other (e.g., red, red-orange, orange). Calm and natural.</p>
                         </div>
-                        <img src={complimentary} className='absolute top-20 right-4 max-w-44 sm:max-w-80 sm:top-0 sm:right-0'/>
+                        <img src={analogous} className='absolute top-20 right-4 max-w-44 sm:max-w-80 sm:top-0 sm:right-0'/>
                     </div>
 
                     <div className='w-full h-full bg-cover bg-center sm:rounded-2xl relative' 
@@ -46,7 +46,7 @@ function ColorCombination() {
                             <h1 className='font-helveticaBold font-bold text-3xl sm:text-4xl'>Triadic</h1>
                             <p className='font-helveticaLight mx-4 text-xs sm:text-base'>Three colors evenly spaced (e.g., red, yellow, blue). Vibrant and balanced.</p>
                         </div>
-                        <img src={complimentary} className='absolute top-20 right-4 max-w-44 sm:max-w-80 sm:top-0 sm:right-0'/>
+                        <img src={triadic} className='absolute top-20 right-4 max-w-44 sm:max-w-80 sm:top-0 sm:right-0'/>
                     </div>
 
                 </div>
