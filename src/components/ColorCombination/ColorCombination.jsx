@@ -6,7 +6,32 @@ import complimentaryBg from '../../assets/img/complementary-color-bg.jpg';
 import analogousBg from '../../assets/img/analogous-color-bg.jpeg';
 import triadicBg from '../../assets/img/triadic-color-bg.jpg';
 
+import { useEffect, useState, useRef } from "react";
+
 function ColorCombination() {
+    const [currentStep, setCurrentStep] = useState(0);
+    const scrollerRef = useRef(null);
+
+    useEffect(() => {
+        const handleScroll = () => {
+        const scroller = scrollerRef.current;
+        if (!scroller) return;
+
+        const vh = window.innerHeight;
+        const scrollTop = window.scrollY - scroller.offsetTop;
+
+        if (scrollTop >= 0 && scrollTop <= scroller.offsetHeight) {
+            const stepIndex = Math.floor(scrollTop / (2 * vh));
+            setCurrentStep(stepIndex);
+        }
+        };
+
+        // Set initial step on load
+        setCurrentStep(0);
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
     return(
         <div className='my-40'>
             <div className='text-center my-10'>
@@ -18,10 +43,10 @@ function ColorCombination() {
                     <div className='h-[1.5px] w-1/3 max-w-md bg-gray-900 dark:bg-white'></div>
                 </div>
             </div>
-            <div className='h-[600vh] relative'>
+            <div className='h-[600vh] relative' ref={scrollerRef}>
                 <div className='sticky max-w-5xl mx-auto top-0 h-[100vh]
                                 sm:top-[15vh] sm:h-[80vh] sm:mx-[8vw] lg:mx-auto lg:max-h-[500px]'>
-
+                {currentStep === 0 && (
                     <div className='w-full h-full bg-cover bg-center sm:rounded-2xl relative' 
                                     style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${complimentaryBg})`}}>
                         <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0'>
@@ -30,7 +55,8 @@ function ColorCombination() {
                         </div>
                         <img src={complimentary} className='absolute top-20 right-4 max-w-44 sm:max-w-80 sm:top-0 sm:right-0'/>
                     </div>
-
+                )}
+                {currentStep === 1 && (
                     <div className='w-full h-full bg-cover bg-center sm:rounded-2xl relative' 
                                     style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${analogousBg})`}}>
                         <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0'>
@@ -39,7 +65,8 @@ function ColorCombination() {
                         </div>
                         <img src={analogous} className='absolute top-20 right-4 max-w-44 sm:max-w-80 sm:top-0 sm:right-0'/>
                     </div>
-
+                )}
+                {currentStep === 2 && (
                     <div className='w-full h-full bg-cover bg-center sm:rounded-2xl relative' 
                                     style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${triadicBg})`}}>
                         <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0'>
@@ -48,7 +75,7 @@ function ColorCombination() {
                         </div>
                         <img src={triadic} className='absolute top-20 right-4 max-w-44 sm:max-w-80 sm:top-0 sm:right-0'/>
                     </div>
-
+                )}
                 </div>
             </div>
         </div>
