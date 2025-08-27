@@ -3,8 +3,8 @@ import complimentary from '../../assets/img/Complimentary-wheel.png';
 import analogous from '../../assets/img/Analogous-wheel.png';
 import triadic from '../../assets/img/Triadic-wheel.png';
 import complimentaryBg from '../../assets/img/complementary-color-bg.jpg';
-import analogousBg from '../../assets/img/analogous-color-bg.jpeg';
-import triadicBg from '../../assets/img/triadic-color-bg.jpg';
+import analogousBg from '../../assets/img/analogous-color-bg2.jpg';
+import triadicBg from '../../assets/img/triadic-color-bg3.jpg';
 
 import { useEffect, useState, useRef } from "react";
 
@@ -49,7 +49,7 @@ function ColorCombination() {
                 {currentStep === 0 && (
                     <div className='w-full h-full bg-cover bg-center sm:rounded-2xl relative' 
                                     style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${complimentaryBg})`}}>
-                        <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0'>
+                        <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0 text-white'>
                             <h1 className='font-helveticaBold font-bold text-3xl sm:text-4xl'>Complimentary</h1>
                             <p className='font-helveticaLight mx-4 text-xs sm:text-base'>Opposite colors on the wheel (e.g., blue & orange). High contrast and energy.</p>
                         </div>
@@ -59,7 +59,7 @@ function ColorCombination() {
                 {currentStep === 1 && (
                     <div className='w-full h-full bg-cover bg-center sm:rounded-2xl relative' 
                                     style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${analogousBg})`}}>
-                        <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0'>
+                        <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0 text-white'>
                             <h1 className='font-helveticaBold font-bold text-3xl sm:text-4xl'>Analogous</h1>
                             <p className='font-helveticaLight mx-4 text-xs sm:text-base'>Colors that are next to each other (e.g., red, red-orange, orange). Calm and natural.</p>
                         </div>
@@ -69,7 +69,7 @@ function ColorCombination() {
                 {currentStep === 2 && (
                     <div className='w-full h-full bg-cover bg-center sm:rounded-2xl relative' 
                                     style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${triadicBg})`}}>
-                        <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0'>
+                        <div className='m-6 lg:max-w-lg absolute bottom-5 sm:bottom-0 text-white'>
                             <h1 className='font-helveticaBold font-bold text-3xl sm:text-4xl'>Triadic</h1>
                             <p className='font-helveticaLight mx-4 text-xs sm:text-base'>Three colors evenly spaced (e.g., red, yellow, blue). Vibrant and balanced.</p>
                         </div>
