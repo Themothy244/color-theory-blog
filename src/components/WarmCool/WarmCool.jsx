@@ -1,13 +1,14 @@
-
+import colorWheel from '../../assets/icons/color-wheel.svg';
 function WarmCool() {
     return(
         <div>
-            <div>
-                <h3>Warm vs Cool</h3>
-                <div>
-                    <div></div>
-                    <h1>Colors</h1>
-                    <div></div>
+            <div className="text-center my-10">
+                <img src={colorWheel} width={50} className='mx-auto my-3'/>
+                <h3 className="font-helveticaLight text-lg">Warm vs Cool</h3>
+                <div className="flex justify-center items-center">
+                    <div className='h-[1.5px] w-1/4 max-w-md bg-gray-900 dark:bg-white'></div>
+                    <h1 className="font-helveticaBold font-bold mx-4 my-2 text-5xl">Colors</h1>
+                    <div className='h-[1.5px] w-1/4 max-w-md bg-gray-900 dark:bg-white'></div>
                 </div>
             </div>
             <div>
