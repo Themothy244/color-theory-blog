@@ -1,5 +1,6 @@
 import ColorCategory from './components/ColorCategory/ColorCategory'
 import ColorCombination from './components/ColorCombination/ColorCombination'
+import ColorEmotion from './components/ColorEmotion/ColorEmotion'
 import ColorTheoryIntro from './components/ColorTheoryIntro/ColorTheoryIntro'
 import ColorWheel from './components/ColorWheel/ColorWheel'
 import HeroSection from './components/HeroSection/HeroSection'
@@ -17,6 +18,7 @@ function App() {
       <ColorCategory />
       <ColorCombination />
       <WarmCool />
+      <ColorEmotion />
     </div>
   )
 }
