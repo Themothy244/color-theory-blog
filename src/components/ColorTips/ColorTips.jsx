@@ -4,13 +4,13 @@ import spectrum from '../../assets/img/color-spectrum.png';
 function ColorTips() {
     return(
         <div>
-            <div>
-                <h3>Experimenting with</h3>
-                <h1>Colors: Beginner Tips</h1>
-                <div>
-                    <div></div>
-                    <img src={icon} alt="icon" />
-                    <div></div>
+            <div className='text-center'>
+                <h3 className='font-helveticaLight text-xl'>Experimenting with</h3>
+                <h1 className='font-helveticaBold text-4xl my-2 mx-3'>Colors: Beginner Tips</h1>
+                <div className='flex justify-center items-center'>
+                    <div className='h-[1.5px] w-1/4 max-w-md bg-gray-900 dark:bg-white'></div>
+                    <img src={icon} alt="icon" width={50} className='m-3'/>
+                    <div className='h-[1.5px] w-1/4 max-w-md bg-gray-900 dark:bg-white'></div>
                 </div>
             </div>
             <div>
