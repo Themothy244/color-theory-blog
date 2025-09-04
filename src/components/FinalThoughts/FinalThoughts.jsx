@@ -3,7 +3,7 @@ import colorWheel from '../../assets/img/color-wheel-2.png';
 
 function FinalThoughts() {
     return(
-        <div className='my-60'>
+        <div className='my-60 relative'>
             <div className='text-center'>
                 <h3 className='font-helveticaLight text-xl'>Final Thoughts on</h3>
                 <h1 className='font-helveticaBold font-bold text-4xl my-2 mx-3'>Color Theory</h1>
@@ -14,8 +14,9 @@ function FinalThoughts() {
                 </div>
             </div>
 
-            <div>
-                <img src="#" alt="color wheel" />
+            <div className='w-full max-w-sm aspect-square rounded-full overflow-hidden 
+                            sm:w-3/4 lg:w-1/3 xl:mx-12 absolute top-1/3 right-1/2 z-0 md:right-[58%]'>
+                <img src={colorWheel} alt="color wheel" className='w-full h-full object-cover animate-spinn'/>
             </div>
 
             <div className='bg-gray-200/80 backdrop-blur-lg mx-[8vw] my-5 rounded-2xl p-5 lg:max-w-3xl lg:mx-auto md:p-6
