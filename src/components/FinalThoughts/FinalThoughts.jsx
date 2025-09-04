@@ -15,18 +15,19 @@ function FinalThoughts() {
             </div>
 
             <div>
-                <img src={colorWheel} alt="color wheel" />
+                <img src="#" alt="color wheel" />
             </div>
 
-            <div>
-                <p>
+            <div className='bg-gray-200/80 backdrop-blur-lg mx-[8vw] my-5 rounded-2xl p-5 lg:max-w-3xl lg:mx-auto md:p-6
+                            dark:bg-gray-800/80'>
+                <p className='font-helveticaLight mb-3 md:text-lg'>
                     Understanding color theory doesn’t mean following 
                     strict rules—it’s about knowing your tools so you 
                     can break the rules with intention. With practice, 
                     you’ll start to choose colors more intuitively and 
                     expressively.
                 </p>
-                <p>Next Step: Try creating an artwork using just an 
+                <p className='font-helveticaLight mb-3 md:text-lg'>Next Step: Try creating an artwork using just an 
                     analogous or complementary color scheme!</p>
             </div>
         </div>
