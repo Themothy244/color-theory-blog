@@ -4,6 +4,7 @@ import ColorEmotion from './components/ColorEmotion/ColorEmotion'
 import ColorTheoryIntro from './components/ColorTheoryIntro/ColorTheoryIntro'
 import ColorTips from './components/ColorTips/ColorTips'
 import ColorWheel from './components/ColorWheel/ColorWheel'
+import FinalThoughts from './components/FinalThoughts/FinalThoughts'
 import HeroSection from './components/HeroSection/HeroSection'
 import Navbar from './components/Navbar/Navbar'
 import WarmCool from './components/WarmCool/WarmCool'
@@ -21,6 +22,7 @@ function App() {
       <WarmCool />
       <ColorEmotion />
       <ColorTips />
+      <FinalThoughts />
     </div>
   )
 }
