@@ -18,9 +18,9 @@ function WarmCool() {
                 <div className='basis-full bg-gray-200/80 backdrop-blur-lg rounded-2xl p-5 my-2 flex flex-wrap justify-between items-center
                                 lg:basis-2/5 lg:max-w-lg lg:mx-2 lg:flex-nowrap dark:bg-gray-800/80'>
                     <div className='mx-4'>
-                        <h1 className='font-helveticaBold font-bold text-4xl sm:text-5xl'>Warm Colors</h1>
-                        <p className='font-helveticaLight text-lg mx-4'>Ex. Red, orange, yellow</p>
-                        <p className='font-helveticaLight text-lg mx-4'>Energetic, passionate, attention-grabbing</p>
+                        <h1 className='font-helveticaBold font-bold text-3xl sm:text-5xl'>Warm Colors</h1>
+                        <p className='font-helveticaLight text-md sm:text-lg mx-4'>Ex. Red, orange, yellow</p>
+                        <p className='font-helveticaLight text-md sm:text-lg mx-4'>Energetic, passionate, attention-grabbing</p>
 
                     </div>
                     <img src={warmColor} className='max-w-40 ml-auto' alt="Warm colors"/>
@@ -28,9 +28,9 @@ function WarmCool() {
                 <div className='basis-full bg-gray-200/80 backdrop-blur-lg rounded-2xl p-5 my-2 flex flex-wrap justify-between items-center text-right flex-row-reverse 
                                 lg:basis-2/5 lg:max-w-lg lg:mx-2 lg:flex-nowrap dark:bg-gray-800/80'>
                     <div className='sm:mx-4'>
-                        <h1 className='font-helveticaBold font-bold text-4xl sm:text-5xl'>Cool Colors</h1>
-                        <p className='font-helveticaLight text-lg mx-4'>Ex. Blue, green, purple</p>
-                        <p className='font-helveticaLight text-lg mx-4'>Calm, soothing, introspective</p>
+                        <h1 className='font-helveticaBold font-bold text-3xl sm:text-5xl'>Cool Colors</h1>
+                        <p className='font-helveticaLight text-md sm:text-lg mx-4'>Ex. Blue, green, purple</p>
+                        <p className='font-helveticaLight text-md sm:text-lg mx-4'>Calm, soothing, introspective</p>
                     </div>
                     <img src={coolColor} className='max-w-40 mr-auto' alt="Cool colors"/>
                 </div>
