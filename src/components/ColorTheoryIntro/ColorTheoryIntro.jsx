@@ -3,7 +3,7 @@ import colorWheel from '../../assets/img/color-wheel-2.png'
 
 function ColorTheoryIntro() {
     return(
-        <div className='my-16 py-16 lg:my-40 relative'>
+        <div className='mt-40 py-16 lg:my-60 relative'>
             <div className='justify-items-center'>
                 <h3 className='font-helveticaBold font-bold text-2xl'>What is</h3>
                 <h1 className='font-helveticaBold font-bold text-4xl'>Color Theory</h1>
