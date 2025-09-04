@@ -13,7 +13,7 @@ import './styles/App.css'
 function App() {
 
   return (
-    <div className='min-h-screen p-[1px] bg-white text-black dark:bg-gray-900 dark:text-white'>
+    <div className='min-h-screen p-[1px] bg-gray-100 text-black dark:bg-gray-900 dark:text-white'>
       <Navbar />
       <HeroSection />
       <ColorTheoryIntro />
