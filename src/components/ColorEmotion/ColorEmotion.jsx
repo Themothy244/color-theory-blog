@@ -1,7 +1,7 @@
 
 function ColorEmotion() {
     return(
-        <div className="w-full my-60 bg-gray-200 dark:bg-gray-800/80">
+        <div className="w-full my-44 bg-gray-200 dark:bg-gray-800/80">
             <div className="max-w-5xl mx-auto py-11 px-[8vw] xl:px-0 ">
                 <div>
                     <h1 className="font-helveticaBold font-bold text-3xl my-2">Using Color to Create Mood and Emotion</h1>
