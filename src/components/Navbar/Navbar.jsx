@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Navbar() {
+function Navbar({ onHomeClick, onBasicsClick, onHarmoniesClick, onEmotionClick }) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -25,12 +25,12 @@ function Navbar() {
 
             {/* Navlinks */}
             <div className={`flex flex-col basis-full items-center max-h-0 overflow-hidden transition-[max-height] duration-500 ease-in-out text-black dark:text-white
-                            ${isOpen ? "max-h-96" : "max-h-0"}
+                            ${isOpen ? "max-h-96 sm:max-h-0" : "max-h-0"}
                             sm:flex-row sm:basis-0 sm:overflow-visible`}>
-                <a href="#" className="m-3 font-helveticaLight">Home</a>
-                <a href="#" className="m-3 font-helveticaLight">Basics</a>
-                <a href="#" className="m-3 font-helveticaLight">Harmonies</a>
-                <a href="#" className="m-3 font-helveticaLight">Emotion</a>
+                <a href="#" className="m-3 font-helveticaLight" onClick={(e) => {e.preventDefault(); onHomeClick(); toggleMenu();}}>Home</a>
+                <a href="#" className="m-3 font-helveticaLight" onClick={(e) => {e.preventDefault(); onBasicsClick(); toggleMenu();}}>Basics</a>
+                <a href="#" className="m-3 font-helveticaLight" onClick={(e) => {e.preventDefault(); onHarmoniesClick(); toggleMenu();}}>Harmonies</a>
+                <a href="#" className="m-3 font-helveticaLight" onClick={(e) => {e.preventDefault(); onEmotionClick(); toggleMenu();}}>Emotion</a>
             </div>
         </div>
     );
