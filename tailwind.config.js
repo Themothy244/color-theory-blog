@@ -32,7 +32,7 @@ export default {
         },
         fadeSlide: {
           '0%' : { opacity: '0' },
-          '30%' : { opacity: '0', transform: 'translateX(-30px)' },
+          '30%' : { opacity: '0', transform: 'translateX(-20px)' },
           '100%' : { opacity: '1' },
         },
         wExpand: {
