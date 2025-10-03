@@ -44,16 +44,16 @@ The blog includes the following structured content:
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-![Home Page](./screenshots/Home.png)
+![Home Page](./webScreenshots/home.png)
 
 ### 🎡 Color Basics
-![Color Basics](./screenshots/Basics.png)
+![Color Basics](./webScreenshots/basics.png)
 
 ### 🎨 Color Harmonies
-![Color Harmonies](./screenshots/Harmonies.png)
+![Color Harmonies](./webScreenshots/harmonies.png)
 
 ### 🧠 Mood & Emotion
-![Mood and Emotion](./screenshots/Emotion.png)
+![Mood and Emotion](./webScreenshots/emotion.png)
 
 ---
 
