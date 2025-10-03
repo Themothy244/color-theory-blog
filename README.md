@@ -1,10 +1,10 @@
 # 🎨 Color Theory Blog
 
 A static educational blog built with **React.js**, **Vite**, and **Tailwind CSS**, aimed at helping artists and designers understand the fundamentals of **color theory**. Whether you're new to art or looking to refresh your knowledge, this site provides clear, visual explanations of core color principles.
+<!-- 
+## 🚀 Live Demo
 
->## 🚀 Live Demo
-
->🔗 [View Live Site](https://your-live-site-link.com)
+🔗 [View Live Site](https://your-live-site-link.com) -->
 
 ---
 
@@ -42,8 +42,6 @@ The blog includes the following structured content:
 ---
 
 ## 🖼️ Screenshots
-
-> 📸 Add your screenshots inside a `screenshots/` directory in your project and update the links below.
 
 ### 🏠 Home Page
 ![Home Page](./screenshots/Home.png)
