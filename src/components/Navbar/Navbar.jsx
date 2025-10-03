@@ -1,11 +1,17 @@
 import { useState } from "react";
 
-function Navbar({ onHomeClick, onBasicsClick, onHarmoniesClick, onEmotionClick }) {
+function Navbar({ onHomeClick, onBasicsClick, onHarmoniesClick, onEmotionClick, activeSection }) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(prev => !prev);
     };
+
+    const getLinkClass = (section) => {
+        return `m-3 font-helveticaLight border-b-2 
+        ${activeSection === section ? "border-black dark:border-white" : "border-transparent"}`;
+    };
+
     return(
         <div className="h-auto max-w-xl mx-[10vw] p-2 my-4 rounded-[30px] bg-gray-200/80 backdrop-blur-md flex flex-wrap items-center justify-between fixed top-0 left-0 right-0 z-50
                         dark:bg-gray-800/80 dark:text-white
@@ -27,10 +33,10 @@ function Navbar({ onHomeClick, onBasicsClick, onHarmoniesClick, onEmotionClick }
             <div className={`flex flex-col basis-full items-center max-h-0 overflow-hidden transition-[max-height] duration-500 ease-in-out text-black dark:text-white
                             ${isOpen ? "max-h-96 sm:max-h-0" : "max-h-0"}
                             sm:flex-row sm:basis-0 sm:overflow-visible`}>
-                <a href="#" className="m-3 font-helveticaLight" onClick={(e) => {e.preventDefault(); onHomeClick(); toggleMenu();}}>Home</a>
-                <a href="#" className="m-3 font-helveticaLight" onClick={(e) => {e.preventDefault(); onBasicsClick(); toggleMenu();}}>Basics</a>
-                <a href="#" className="m-3 font-helveticaLight" onClick={(e) => {e.preventDefault(); onHarmoniesClick(); toggleMenu();}}>Harmonies</a>
-                <a href="#" className="m-3 font-helveticaLight" onClick={(e) => {e.preventDefault(); onEmotionClick(); toggleMenu();}}>Emotion</a>
+                <a href="#" className={getLinkClass("home")} onClick={(e) => {e.preventDefault(); onHomeClick(); toggleMenu();}}>Home</a>
+                <a href="#" className={getLinkClass("basics")} onClick={(e) => {e.preventDefault(); onBasicsClick(); toggleMenu();}}>Basics</a>
+                <a href="#" className={getLinkClass("harmonies")} onClick={(e) => {e.preventDefault(); onHarmoniesClick(); toggleMenu();}}>Harmonies</a>
+                <a href="#" className={getLinkClass("emotion")} onClick={(e) => {e.preventDefault(); onEmotionClick(); toggleMenu();}}>Emotion</a>
             </div>
         </div>
     );
