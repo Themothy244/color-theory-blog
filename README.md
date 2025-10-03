@@ -1,12 +1,69 @@
-# React + Vite
+# 🎨 Color Theory Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A static educational blog built with **React.js**, **Vite**, and **Tailwind CSS**, aimed at helping artists and designers understand the fundamentals of **color theory**. Whether you're new to art or looking to refresh your knowledge, this site provides clear, visual explanations of core color principles.
 
-Currently, two official plugins are available:
+>## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>🔗 [View Live Site](https://your-live-site-link.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Site Sections
+
+The blog includes the following structured content:
+
+### 🧭 Navigation
+
+- **Home** — Introduction and welcome section.
+- **Color Basics** — Covers *"What is Color Theory?"* and *"The Color Wheel"*.
+- **Color Harmonies** — Explains complementary, analogous, triadic, and monochromatic color schemes.
+- **Mood & Emotion** — Discusses warm vs. cool colors and their emotional/psychological effects.
+
+### 📖 Featured Content
+
+- **What is Color Theory?**  
+  A beginner-friendly explanation of the science and art of color.
+
+- **The Color Wheel**  
+  Learn about primary, secondary, and tertiary colors and how they relate.
+
+- **Color Harmonies**  
+  Explore how to combine colors using complementary, analogous, triadic, and monochromatic schemes.
+
+- **Warm vs. Cool Colors**  
+  Understand how color temperature affects mood and composition.
+
+- **Color Psychology**  
+  Dive into how different colors evoke specific emotions and responses.
+
+- **Beginner Tips**  
+  Practical advice for experimenting with color in your own work.
+
+---
+
+## 🖼️ Screenshots
+
+> 📸 Add your screenshots inside a `screenshots/` directory in your project and update the links below.
+
+### 🏠 Home Page
+![Home Page](./screenshots/Home.png)
+
+### 🎡 Color Basics
+![Color Basics](./screenshots/Basics.png)
+
+### 🎨 Color Harmonies
+![Color Harmonies](./screenshots/Harmonies.png)
+
+### 🧠 Mood & Emotion
+![Mood and Emotion](./screenshots/Emotion.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React.js** — Component-based UI library
+- ⚡ **Vite** — Lightning-fast build tool and dev server
+- 🎨 **Tailwind CSS** — Utility-first CSS framework for rapid styling
+
+---
+
